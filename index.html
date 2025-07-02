@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/1976_Landslides_16.js"></script><script src="layers/PSDAftershocks_17.js"></script><script src="layers/WHAftershocks_18.js"></script><script src="layers/LBAftershocks_19.js"></script><script src="layers/GuatemalaBorder_21.js"></script><script src="layers/MotaguaFault_22.js"></script><script src="layers/MMI80MMI80kmz_23.js"></script><script src="layers/MMI75MMI75kmz_24.js"></script><script src="layers/MMI70MMI70kmz_25.js"></script><script src="layers/MMI65MMI65kmz_26.js"></script><script src="layers/MMI60MMI60kmz_27.js"></script><script src="layers/MMI55MMI55kmz_28.js"></script><script src="layers/MMI50MMI50kmz_29.js"></script><script src="layers/MMI45MMI45kmz_30.js"></script><script src="layers/MMI40MMI40kmz_31.js"></script><script src="layers/LakeAtitlan_32.js"></script><script src="layers/1976EarthquakeEpicenter_33.js"></script><script src="layers/MtguaFldTrpFig1_34.js"></script><script src="layers/Displacement_Measurements_35.js"></script><script src="layers/MotaguaFltFldTrpFigrs_36.js"></script><script src="layers/ProfPaprFigrs4projectProfPaprFigrs_37.js"></script>
+        <script src="styles/1976_Landslides_16_style.js"></script><script src="styles/PSDAftershocks_17_style.js"></script><script src="styles/WHAftershocks_18_style.js"></script><script src="styles/LBAftershocks_19_style.js"></script><script src="styles/GuatemalaBorder_21_style.js"></script><script src="styles/MotaguaFault_22_style.js"></script><script src="styles/MMI80MMI80kmz_23_style.js"></script><script src="styles/MMI75MMI75kmz_24_style.js"></script><script src="styles/MMI70MMI70kmz_25_style.js"></script><script src="styles/MMI65MMI65kmz_26_style.js"></script><script src="styles/MMI60MMI60kmz_27_style.js"></script><script src="styles/MMI55MMI55kmz_28_style.js"></script><script src="styles/MMI50MMI50kmz_29_style.js"></script><script src="styles/MMI45MMI45kmz_30_style.js"></script><script src="styles/MMI40MMI40kmz_31_style.js"></script><script src="styles/LakeAtitlan_32_style.js"></script><script src="styles/1976EarthquakeEpicenter_33_style.js"></script><script src="styles/MtguaFldTrpFig1_34_style.js"></script><script src="styles/Displacement_Measurements_35_style.js"></script><script src="styles/MotaguaFltFldTrpFigrs_36_style.js"></script><script src="styles/ProfPaprFigrs4projectProfPaprFigrs_37_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
